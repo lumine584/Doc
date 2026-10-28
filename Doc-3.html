@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors</title>
+
+    <style>
+        body {
+            background-color: white;
+            font-family: "Times New Roman", serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: black;
+        }
+
+        h2 {
+            font-size: 25px;
+            color: black;
+        }
+
+        ol {
+            display: inline-block;
+            text-align: left;
+            font-size: 20px;
+            padding-left: 25px;
+        }
+
+        .element {
+            color: brown;
+        }
+
+        .class {
+            color: black;
+        }
+
+        #id {
+            color: green;
+        }
+
+        p[title] {
+            color: blue;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Selectors</h1>
+
+    <h2>Applying CSS to Different Parts of HTML</h2>
+
+    <ol>
+        <li class="element">
+            The element selector targets elements based on their HTML tag name.
+        </li>
+
+        <li class="class">
+            Class selectors target elements based on the value of the class attribute.
+        </li>
+
+        <li id="id">
+            ID selectors target elements based on the value of the id attribute.
+        </li>
+
+        <li>
+            <p title="attribute">
+                Attribute selectors target elements based on their attributes and values.
+            </p>
+        </li>
+
+        <li>
+            The universal selector targets all elements.
+        </li>
+    </ol>
+
+</body>
+</html>
